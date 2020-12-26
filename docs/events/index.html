@@ -31,7 +31,7 @@ The stream has three main functions, publish, subscribe and unsubscribe. Any eve
         <meta name="twitter:image" content="">
   <meta name="author" content="CARDANO StakePro POOL">
 
-  <meta name="generator" content="Hugo 0.74.3" />
+  <meta name="generator" content="Hugo 0.79.1" />
 
   <title>Events &middot; StakePro Pool</title>
 
@@ -430,6 +430,24 @@ html {
                 What is cardano?
               </a>
               
+            </li><li class="nav-item ">
+              <a
+                  class="nav-link"
+                
+                  href="/#info"
+                >
+                Info about us
+              </a>
+              
+            </li><li class="nav-item ">
+              <a
+                  class="nav-link"
+                
+                  href="/#liveprice"
+                >
+                Live Price
+              </a>
+              
             </li>
       </ul>
     </div>
@@ -745,7 +763,7 @@ html {
 <p>The stream has three main functions, <code>publish</code>, <code>subscribe</code> and <code>unsubscribe</code>. Any event published using the <code>publish</code> function can be listened to by <code>subscribe</code> function, allowing easy, decoupled and isolated functionalities inside fragments and the whole page.</p>
 <p>Events can be triggered either by directly calling the <code>publish</code> function on the <code>window.syna.stream</code> object or by an special url query which is explained <a href="#event-urls">below</a>.</p>
 <h3 id="publish-function"><code>publish</code> function</h3>
-<p>You can call <code>publish</code> function anywhere in your code. In the built-in fragments, it&rsquo;s mostly called on buttons&rsquo; click handlers.</p>
+<p>You can call <code>publish</code> function anywhere in your code. In the built-in fragments, it&rsquo;s mostly called on buttons' click handlers.</p>
 <p>The function accepts two arguments, <code>topic</code> and <code>args</code></p>
 <h4 id="topic">topic</h4>
 <p><em>type: string</em></p>
